@@ -1,6 +1,6 @@
 {
-    "name": "appname",
-    "short_name": "appname",
+    "name": "Solutions IT support",
+    "short_name": "solutions IT support",
     "icons": [{
         "src": "./img/icons/android-chrome-192x192.png",
         "sizes": "192x192",
