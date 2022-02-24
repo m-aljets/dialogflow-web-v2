@@ -15,10 +15,15 @@
 
 ### Calculation
 
-| item | amount (per month) | price ($) | sum ($)|
-|------|---------------------|----------|--------|
-| requests | 2500            | 0,002     | 5     |
-| audio input | 250 * 10 sec | 0,0065 per 15 sec | 1,08 |
-| audio output | 250 * 200 chars | 4,00 per mio chars | 0,2 |
-| **sum** | | | **6,28** |
+| item         | amount (per month)  | price ($)          | sum ($)  |
+|--------------|---------------------|--------------------|----------|
+| requests     | 2500                | 0,002              | 5        |
+| audio input  | 250 * 10 sec        | 0,0065 per 15 sec  | 1,08     |
+| audio output | 250 * 200 chars     | 4,00 per mio chars | 0,2      |
+| **sum**      |                     |                    | **6,28** |
+
+### Result
+
+With the effected assumptions about the Solution IT support chat bot, the price for a productive system would be **6,28 $ per month**.
+
 
