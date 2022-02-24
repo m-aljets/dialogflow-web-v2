@@ -1,10 +1,9 @@
 <template>
   <header class="top-head">
     <div class="top-head-container">
-      <img v-if="agent.avatarUri" class="top-head-icon" :alt="agent.displayName" :src="agent.avatarUri">
-      <img v-else class="top-head-icon" src="https://console.dialogflow.com/api-client/assets/img/logo-short.png" :alt="agent.displayName">
+      <img class="top-head-icon" :alt="agent.displayName" src="https://static.vecteezy.com/system/resources/previews/003/352/178/non_2x/cute-characters-friendly-robot-waving-hand-free-vector.jpg">
       <div class="top-head-info">
-        <div class="top-head-title">{{agent.displayName}}</div>
+        <div class="top-head-title">Solution IT support bot</div>
         <div class="top-head-subtitle">{{(translations[lang()] && translations[lang()].poweredBy) || translations[config.fallback_lang].poweredBy}} <a target="_blank" rel="noopener noreferrer" href="https://dialogflow.cloud.ushakov.co" aria-hidden="true">Dialogflow Gateway</a></div>
       </div>
     </div>

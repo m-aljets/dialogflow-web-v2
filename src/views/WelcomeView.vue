@@ -1,11 +1,9 @@
 <template>
   <div class="welcome-view">
     <!-- Agent Icon -->
-    <img v-if="agent.avatarUri" class="agent-icon" :alt="agent.displayName" :src="agent.avatarUri">
-    <img v-else class="agent-icon" src="https://console.dialogflow.com/api-client/assets/img/logo-short.png" :alt="agent.displayName">
-
+    <img class="agent-icon" :alt="agent.displayName" src="https://static.vecteezy.com/system/resources/previews/003/352/178/non_2x/cute-characters-friendly-robot-waving-hand-free-vector.jpg">
     <!-- Agent Title -->
-    <div class="agent-title">{{agent.displayName}}</div>
+    <div class="agent-title">Solution IT support bot</div>
 
     <!-- Agent Description -->
     <div class="agent-description">{{agent.description}}</div>
